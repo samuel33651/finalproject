@@ -11,23 +11,27 @@ char const* character[] = {"", "", "", "", "", "", "", "",
                             "", "", "", "", "", "", "", "",
                             "", "", "", "", "", "", "", ""};
  
+//Deklarasi variable
 char c, karakter;
 int row, pilih;
 
+//Print baner biar bagus
 printf(" | *************************************|");cout<<endl;
 printf(" | 1. Print ASCII Tabel\t\t\t|");cout<<endl;
-printf(" | 2. Mencari Nilai ASCII dari Karakter\t|");cout<<endl;
+printf(" | 2. Konversi ASCII ke Hex, Dec, Oct\t|");cout<<endl;
 printf(" | *************************************|");
+
+//Meminta input untuk memilih tool
 cout << "\n";
 cout << "Pilih >> "; cin >> pilih;
 cout << "\n";
 
 
-
+//Kondisi 'switch' untuk memilih 2 tool
 switch(pilih)
    {
    
-   // 1. Encryption
+   // 1. Tabel ASCII
    case 1:
       { 
 
@@ -59,11 +63,15 @@ switch(pilih)
        }
       break;
       }
-         
+    
+   // 2. Konversi karaKter ASCII ke OCT, DEC, HEX
    case 2:
-      cout << "Enter a character: ";
+      cout << "Masukkan karakter : ";
       cin >> karakter;
-      cout << "ASCII Value of " << karakter << " is " << int(karakter);
+      cout << "ASCII\t:" << karakter << endl          // output ASCII
+       << "OCT\t:" << oct << (int)karakter << endl   // output Octal
+       << "DEC\t:" << dec << (int)karakter << endl   // output Decimal
+       << "HEX\t:" << hex << (int)karakter << endl;  // output Hexadecimal
       break;
 
    }
