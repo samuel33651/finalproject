@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include<iostream> //Library standart input output
+#include<iomanip> //Library utnuk memanggil fungsi setfill, setw, setbase
 using namespace std;
  
 
@@ -23,11 +23,12 @@ printf(" | *************************************|");
 
 //Meminta input untuk memilih tool
 cout << "\n";
-cout << "Pilih >> "; cin >> pilih;
+cout << "Pilih >> "; 
+cin >> pilih;
 cout << "\n";
 
 
-//Kondisi 'switch' untuk memilih 2 tool
+//Inputan dari 'pilih' diatas kita lempar ke Kondisi 'switch' untuk memilih 2 tool
 switch(pilih)
    {
    
