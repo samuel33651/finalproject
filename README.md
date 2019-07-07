@@ -7,7 +7,8 @@
 ```
 
 # `README`
-Terdapat 2 tool untuk projek C++
+Terdapat 3 tool untuk projek C++
 1. Tabel ASCII
-2. Melihat nilai ASCII dari karakter
+2. Konversi karakter ke Hexa, Decimal dan Octal
+2. Konversi 10 karakter ke Hexa, Decimal dan Octal
 
