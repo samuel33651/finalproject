@@ -26,7 +26,7 @@ cin >> pilih;
 cout << "\n";
 
 
-//Inputan dari 'pilih' diatas kita lempar ke Kondisi 'switch' untuk memilih 3 tool
+//Inputan dari 'pilih' diatas kita lempar ke Kondisi 'switch' untuk memilih 2 tool
 switch(pilih)
 {
    
@@ -50,13 +50,13 @@ switch(pilih)
    case 2:
     {
       cout << "Masukkan karakter : ";
-      cin >> karakter2;
+      cin >> karakter;
 
       cout 
        << "OCT\t:" << oct << (int)karakter << endl   // output Octal
        << "DEC\t:" << dec << (int)karakter << endl   // output Decimal
        << "HEX\t:" << hex << (int)karakter << endl;  // output Hexadecimal
-
+       break;
     }
 
 
