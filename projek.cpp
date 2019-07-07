@@ -26,7 +26,7 @@ cin >> pilih;
 cout << "\n";
 
 
-//Inputan dari 'pilih' diatas kita lempar ke Kondisi 'switch' untuk memilih 2 tool
+//Inputan dari 'pilih' diatas kita lempar ke Kondisi 'switch' untuk memilih 3 tool
 switch(pilih)
 {
    
