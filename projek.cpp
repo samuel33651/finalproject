@@ -14,6 +14,9 @@ char karakter2[10]; //Kita batasi input hanya 10 karakter
 char karakter3;
 
 //Print baner biar bagus
+//Untuk deteksi tombol keyboard kita baru mampu deteksi ENTER, SHIFT, TAB, CAPS LOCK dengan fungsi getchar()
+  //sedangkan untuk tombol yg lain kita belum mampu menemukan caranya
+
 printf(" | *************************************|");cout<<endl;
 printf(" | 1. Print ASCII Tabel\t\t\t|");cout<<endl;
 printf(" | 2. Konversi Char[1] ke Hex,Dec,Oct\t|");cout<<endl;
