@@ -44,7 +44,7 @@ switch(pilih)
      cout << "--------------------------------------------------------------------------\n";
       
       //looping sampai karakter ke 255
-      for (int i=30;i<=255;i++)
+      for (int i=0;i<=127;i++)
       {
         karakter=i;
         cout << setw(2) << karakter 
