@@ -7,8 +7,11 @@
 ```
 
 # `README`
-Terdapat 3 tool untuk projek C++
-1. Tabel ASCII
-2. Konversi karakter ke Hexa, Decimal dan Octal
-2. Konversi 10 karakter ke Hexa, Decimal dan Octal
+Terdapat 6 tool untuk projek C++
+1. Print ASCII Tabel
+2. Print ASCII A-Z
+3. Print ASCII a-z
+4. Konversi Char[1] ke Hex,Dec,Oct
+5. Konversi Char[10] ke Hex,Dec,Oct
+6. Konversi Desimal ke Binary
 
